@@ -538,11 +538,8 @@ export default function App() {
         {/* ===== FOOTER ===== */}
         <footer className="text-center space-y-1 pb-4">
           <p className="text-xs text-slate-600">
-            Powered by{" "}
-            <span className="text-slate-500">
-              @cf/openai/whisper-large-v3-turbo
-            </span>{" "}
-            · <span className="text-slate-500">@cf/meta/m2m100-1.2b</span>
+            Powered by <span className="text-slate-500">whisper</span> ·{" "}
+            <span className="text-slate-500">m2m100-1.2b</span>
           </p>
           <p className="text-xs text-slate-700">
             {SUPPORTED_LANGUAGES.length} languages supported

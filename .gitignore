@@ -34,3 +34,7 @@ dist-ssr/
 # Vite/TS build artifacts
 *.tsbuildinfo
 .vercel
+
+
+.wrangler
+.dev.vars*
