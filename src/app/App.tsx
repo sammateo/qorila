@@ -46,7 +46,7 @@ export default function App() {
 
   // Language state
   const [sourceLang, setSourceLang] = useState<string | null>("en"); // null = auto-detect
-  const [targetLang, setTargetLang] = useState<string>("en");
+  const [targetLang, setTargetLang] = useState<string>("es");
   const [detectedLang, setDetectedLang] = useState<string | null>(null);
 
   // Results
